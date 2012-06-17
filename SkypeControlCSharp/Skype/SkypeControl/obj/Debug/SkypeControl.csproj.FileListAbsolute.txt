@@ -1,0 +1,5 @@
+C:\desenv\skype\SkypeControlCSharp\Skype\SkypeControl\bin\Debug\SkypeControl.dll
+C:\desenv\skype\SkypeControlCSharp\Skype\SkypeControl\bin\Debug\SkypeControl.pdb
+C:\desenv\skype\SkypeControlCSharp\Skype\SkypeControl\obj\Debug\ResolveAssemblyReference.cache
+C:\desenv\skype\SkypeControlCSharp\Skype\SkypeControl\obj\Debug\SkypeControl.dll
+C:\desenv\skype\SkypeControlCSharp\Skype\SkypeControl\obj\Debug\SkypeControl.pdb

@@ -1,0 +1,11 @@
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\bin\Debug\TestApp.exe
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\bin\Debug\TestApp.pdb
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\bin\Debug\SkypeControl.dll
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\bin\Debug\SkypeControl.pdb
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\TestApp.Form1.resources
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\ResGen.read.1.tlog
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\ResGen.write.1.tlog
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\TestApp.exe
+C:\desenv\skype\SkypeControlCSharp\Skype\TestApp\obj\Debug\TestApp.pdb

@@ -1,0 +1,12 @@
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\Interop.SKYPE4COMLib.dll
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\skypeanswer.vbproj.ResolveComReference.cache
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\skypeanswer.Resources.resources
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\desenv\skype\answer\skypeanswer\bin\Debug\skypeanswer.exe
+C:\desenv\skype\answer\skypeanswer\bin\Debug\skypeanswer.pdb
+C:\desenv\skype\answer\skypeanswer\bin\Debug\skypeanswer.xml
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\skypeanswer.exe
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\skypeanswer.xml
+C:\desenv\skype\answer\skypeanswer\obj\x86\Debug\skypeanswer.pdb
