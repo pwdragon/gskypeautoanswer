@@ -27,13 +27,14 @@ namespace SkypeBing
         private void skype_MessageStatus(ChatMessage msg, TChatMessageStatus status)
         {
             // Proceed only if the incoming message is a trigger
-            if (msg.Body.IndexOf(trigger) >= 0)
+            //if (msg.Body.IndexOf(trigger) >= 0)
             {
                 // Remove trigger string and make lower case
                 string command = msg.Body.Remove(0, trigger.Length).ToLower();
 
                 // Send processed message back to skype chat window
-                skype.SendMessage(msg.Sender.Handle, nick + " Says: " + ProcessCommand(command));
+                //skype.SendMessage(msg.Sender.Handle, nick + " Says: " + ProcessCommand(command));
+                skype.SendMessage(msg.Sender.Handle, "<Reposta automatica GAutoAnswer: > desculpe estou ausente deixe seu recado.");
             }
         }
 

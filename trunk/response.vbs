@@ -29,13 +29,13 @@ Loop
 
 '// The AttachmentStatus event handler monitors attachment status and attempts to connect to the Skype API:
 Public Sub Skype_AttachmentStatus(ByVal aStatus)
-  WScript.Echo  ">Attachment status " & oSkype.Convert.AttachmentStatusToText(aStatus)
+  'WScript.Echo  ">Attachment status " & oSkype.Convert.AttachmentStatusToText(aStatus)
   If aStatus = cAttachmentStatus_Available Then oSkype.Attach() End If
 End Sub
 
 '// The MessageStatus event handler monitors message status, decodes received messages and, for those of type "Said", sends an autoresponse quoting the original message:
 Public Sub Skype_MessageStatus(ByRef aMsg, ByVal aStatus)
-  WScript.Echo ">Message " & aMsg.Id & " status " & oSkype.Convert.ChatMessageStatusToText(aStatus)
+  'WScript.Echo ">Message " & aMsg.Id & " status " & oSkype.Convert.ChatMessageStatusToText(aStatus)
   If aStatus = cMessageStatus_Received Then 
     DecodeMsg aMsg       
     If aMsg.Type = cMessageType_Said Then 
@@ -59,5 +59,5 @@ Public Sub DecodeMsg(ByRef oMsg)
   If oMsg.Type = cMessageType_Left Then 
     sText = sText & " " & oSkype.Convert.ChatLeaveReasonToText(oMsg.LeaveReason)
   End If
-  WScript.Echo ">" & sText  
+  ' WScript.Echo ">" & sText  
 End Sub
