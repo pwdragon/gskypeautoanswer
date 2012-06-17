@@ -1,0 +1,11 @@
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\Interop.SKYPE4COMLib.dll
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\SkypeBing.csproj.ResolveComReference.cache
+C:\desenv\skype\SkypeBot\SkypeBot\bin\Debug\SkypeBing.exe
+C:\desenv\skype\SkypeBot\SkypeBot\bin\Debug\SkypeBing.pdb
+C:\desenv\skype\SkypeBot\SkypeBot\bin\Debug\Interop.SKYPE4COMLib.dll
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\ResolveAssemblyReference.cache
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\SkypeBing.Form1.resources
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\SkypeBing.Properties.Resources.resources
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\SkypeBing.csproj.GenerateResource.Cache
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\SkypeBing.exe
+C:\desenv\skype\SkypeBot\SkypeBot\obj\Debug\SkypeBing.pdb
