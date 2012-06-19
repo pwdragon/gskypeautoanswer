@@ -5,13 +5,13 @@ using SKYPE4COMLib;
 
 namespace SkypeBing
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
         private Skype skype;
         private const string trigger = "!"; // Say !help
         private const string nick = "BOT";
         
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }
@@ -35,7 +35,8 @@ namespace SkypeBing
 
                 // Send processed message back to skype chat window
                 //skype.SendMessage(msg.Sender.Handle, nick + " Says: " + ProcessCommand(command));
-                skype.SendMessage(msg.Sender.Handle, "<Reposta automatica GAutoAnswer: > desculpe estou ausente deixe seu recado.");
+                //skype.SendMessage(msg.Sender.Handle, "<Reposta automatica GAutoAnswer: > desculpe estou ausente deixe seu recado.");
+                skype.SendMessage(msg.Sender.Handle, txtAnswer.Text);
             }
         }
 
@@ -65,6 +66,44 @@ namespace SkypeBing
             }
 
             return result;
+        }
+
+
+        private void ServerSimulator_Resize(object sender, EventArgs e)
+        {
+            if (FormWindowState.Minimized == this.WindowState)
+            {
+                notifyIcon1.Visible = true;
+                notifyIcon1.ShowBalloonTip(500);
+                this.Hide();
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIcon1.Visible = false;
+            }
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
+            notifyIcon1.ShowBalloonTip(1000);
+            WindowState = FormWindowState.Normal;
+
+        }
+        private void executeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.Activate();
+
+        }
+
+
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.Close();
+
         }
     }
 }
