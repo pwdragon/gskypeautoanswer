@@ -44,7 +44,8 @@
             this.txtAnswer.Name = "txtAnswer";
             this.txtAnswer.Size = new System.Drawing.Size(524, 103);
             this.txtAnswer.TabIndex = 0;
-            this.txtAnswer.Text = "<Reposta automatica GAutoAnswer: > desculpe estou ausente deixe seu recado.";
+            this.txtAnswer.Text = "<automatically answer (GAutoAnswer ®) > volto logo, deixe seu recado. < from LW P" +
+                "roductivty machine © 2012>";
             this.txtAnswer.Resize += new System.EventHandler(this.ServerSimulator_Resize);
             // 
             // label1
