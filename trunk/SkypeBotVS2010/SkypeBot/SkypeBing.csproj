@@ -116,10 +116,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Skype4COM.chm" />
+    <None Include="Skype4COM.msm" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="groups.vbs" />
     <Content Include="LifeIcon.ico" />
+    <Content Include="Skype4COM.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
